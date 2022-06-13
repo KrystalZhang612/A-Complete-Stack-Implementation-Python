@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-
 #use linked with supplemental class named NodeClass to implement stack data structure
 
 class NodeClass:
@@ -14,8 +13,7 @@ class NodeClass:
 		self.PreviousNode = None
 		
 		self.NextNode = None
-		
-		
+				
 #Stack class 
 		
 class Stack:
@@ -126,10 +124,6 @@ class Stack:
 		
 		return self.TailNode.value 
 	
-	
-	
-		
-
 #Driver code 
 	
 if __name__ == '__main__':
@@ -200,44 +194,5 @@ if __name__ == '__main__':
 	#print("The deleted and returned value is: ", TestingStack.pop()) 
 	#the deleted and returned value is 19. test passed. 
 	
-	TestingStack.pop()
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
-
-	
-	
-	
-	
-	
-	
-	
-		
-	
-			
-			
-			
-			
-		
-		
-		
-		
-			
-			
-		
-		
-		
-		
-		
-	
-	
-	
+	TestingStack.pop()	
 	
